@@ -1,0 +1,23 @@
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  display: flex;
+  background-color: #1e90ff;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
