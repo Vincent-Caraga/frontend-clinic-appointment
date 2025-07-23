@@ -1,12 +1,21 @@
-# React + Vite
+# Clinic Appointment System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web-based clinic appointment system for clinics, built using HTML, CSS, JavaScript, and React.js for frontend development
 
-Currently, two official plugins are available:
+## 🚀 Future Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Book appointments with available doctors
+- View and manage appointment schedules
+- Responsive layout (mobile & desktop) - Will add it soon
+- Admin panel (Will add it soon)
+- Patient and Doctor login (Will add it soon)
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+\_Work in progress!
+
+## 🛠 Tech Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Frameworks/libraries: React.js
+- Git for version control
