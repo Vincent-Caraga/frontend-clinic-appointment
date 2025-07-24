@@ -1,12 +1,4 @@
-.background {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  min-height: 100vh;
-  margin-bottom: 50px;
-}
-h2 {
+#welcome {
   font-size: 4rem;
   text-align: center;
   justify-content: center;
@@ -20,4 +12,30 @@ h2 {
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+#about-us {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 2rem;
+}
+.headline {
+  text-align: center;
+  font-size: 1.5em;
+}
+.description {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  text-align: justify;
+}
+em {
+  font-weight: bold;
+}
+#our-commitment {
+  text-align: center;
+  font-size: 1.5em;
+}
+.commitment-list {
+  text-align: center;
+  font-size: 1.5em;
+  list-style: none;
 }
