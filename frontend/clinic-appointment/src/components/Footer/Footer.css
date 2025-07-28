@@ -1,0 +1,14 @@
+.site-footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.site-footer .contact-us {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.site-footer .copy-right {
+  margin: 0 0 10px;
+  color: #555;
+}
