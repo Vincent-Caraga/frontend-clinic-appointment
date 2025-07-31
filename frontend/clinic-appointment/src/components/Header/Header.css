@@ -1,3 +1,6 @@
+/* =================== */
+/* Desktop Styles */
+/* =================== */
 #welcome {
   font-size: 4rem;
   text-align: center;
@@ -6,36 +9,87 @@
   color: black;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   display: flex;
-  background-color: #1e90ff;
+
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
+
 #about-us {
-  margin-top: 200px;
+  margin-top: 200px; /* space for fixed header */
   text-align: center;
   font-size: 2rem;
 }
+
 .headline {
   text-align: center;
   font-size: 1.5em;
 }
+
 .description {
   font-size: 1.1em;
   padding: 10px 20px;
   text-align: justify;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
 em {
   font-weight: bold;
 }
+
 #our-commitment {
   text-align: center;
   font-size: 1.5em;
+  margin-top: 2rem;
 }
+
 .commitment-list {
   text-align: center;
   font-size: 1.5em;
   list-style: none;
+  padding: 0 20px;
+}
+
+/* =================== */
+/* Mobile Styles */
+/* =================== */
+@media (max-width: 768px) {
+  #welcome {
+    font-size: 2rem;
+    padding: 0.8rem 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-us {
+    margin-top: 140px;
+    font-size: 1.5rem;
+  }
+
+  .headline {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    padding: 10px 15px;
+  }
+
+  #our-commitment {
+    font-size: 1.3rem;
+  }
+
+  .commitment-list {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* Prevent anchor link hiding behind fixed header */
+html {
+  scroll-padding-top: 100px;
 }

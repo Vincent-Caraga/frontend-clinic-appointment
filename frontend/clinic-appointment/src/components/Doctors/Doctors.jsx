@@ -23,7 +23,7 @@ const Doctors = () => {
           </div>
         </div>
 
-        <div id="container_2">
+        <div className="container">
           <div className="image">
             <img src={assets.doctor_2} alt="" />
           </div>
@@ -40,7 +40,7 @@ const Doctors = () => {
           </div>
         </div>
 
-        <div id="container_3">
+        <div className="container">
           <div className="image">
             <img src={assets.doctor_3} alt="" />
           </div>
@@ -60,7 +60,7 @@ const Doctors = () => {
           </div>
         </div>
 
-        <div id="container_4">
+        <div className="container">
           <div className="image">
             <img src={assets.doctor_4} alt="" />
           </div>

@@ -1,17 +1,18 @@
+/* Shared styles for all doctor containers */
 .container {
   display: flex;
   align-items: center;
   max-width: 1000px;
-  margin: 50px auto;
-  margin-top: 100px;
-  margin-left: 250px;
+  margin: 100px auto 50px;
   border: 1px solid black;
   padding: 20px;
   border-radius: 10px;
+  gap: 20px;
 }
+
+/* Left image column */
 .image {
   flex: 1;
-  padding-right: 20px;
 }
 .image img {
   width: 100%;
@@ -19,44 +20,34 @@
   height: auto;
   display: block;
 }
+
+/* Right text column */
 .description {
   flex: 2;
-  text-align: center;
   text-align: justify;
 }
+
+/* Section heading */
 .top-notch {
   text-align: center;
+  font-size: 2rem;
+  margin-top: 50px;
 }
-#container_2 {
-  display: flex;
-  align-items: center;
-  max-width: 1000px;
-  margin: 50px auto;
-  margin-top: 100px;
-  margin-left: 250px;
-  border: 1px solid black;
-  padding: 20px;
-  border-radius: 10px;
-}
-#container_3 {
-  display: flex;
-  align-items: center;
-  max-width: 1000px;
-  margin: 50px auto;
-  margin-top: 100px;
-  margin-left: 250px;
-  border: 1px solid black;
-  padding: 20px;
-  border-radius: 10px;
-}
-#container_4 {
-  display: flex;
-  align-items: center;
-  max-width: 1000px;
-  margin: 50px auto;
-  margin-top: 100px;
-  margin-left: 250px;
-  border: 1px solid black;
-  padding: 20px;
-  border-radius: 10px;
+
+/* ✅ Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .image img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }

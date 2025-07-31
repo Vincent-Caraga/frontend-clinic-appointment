@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { assets } from "./assets/assets";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
-import Footer from "./components/Footer/Footer";
+import ViewDoctor from "./pages/ViewDoctor/ViewDoctor";
 
 const App = () => {
   return (
@@ -12,9 +12,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ViewDoctor" element={<ViewDoctor />} />
         </Routes>
       </div>
-      <Footer />
     </Router>
   );
 };
