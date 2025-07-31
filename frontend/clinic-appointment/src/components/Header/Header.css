@@ -1,6 +1,7 @@
 /* =================== */
 /* Desktop Styles */
 /* =================== */
+
 #welcome {
   font-size: 4rem;
   text-align: center;
@@ -9,12 +10,9 @@
   color: black;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   display: flex;
-
   padding: 1rem 2rem;
-  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
 }
 
 #about-us {
